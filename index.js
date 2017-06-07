@@ -86,7 +86,7 @@ module.exports = {
         // 'dot-notation': 0,
         // 'eqeqeq': 0,
         'guard-for-in': 2,
-        // 'no-alert': 0,
+        'no-alert': 2,
         'no-caller': 2,
         // 'no-case-declarations': 2, // eslint:recommended
         // 'no-div-regex': 0,
@@ -138,7 +138,7 @@ module.exports = {
         // 'radix': 0,
         // 'vars-on-top': 0,
         // 'wrap-iife': 0,
-        // 'yoda': 0,
+        'yoda': ["error", "always", { "onlyEquality": true }],
 
         // Strict Mode
         // http://eslint.org/docs/rules/#strict-mode
@@ -196,8 +196,8 @@ module.exports = {
         // 'id-blacklist': 0,
         // 'id-length': 0,
         // 'id-match': 0,
-        // 'indent': 0, // TODO(philipwalton): this rule isn't compatible with
-                                        // Google's 4-space indent for line continuations.
+        'indent': [2, 4, {"SwitchCase": 1}],
+
         // 'jsx-quotes': 0,
         'key-spacing': 2,
         'keyword-spacing': 2,
@@ -269,7 +269,7 @@ module.exports = {
         // 'sort-keys': 0,
         // 'sort-vars': 0,
         'space-before-blocks': 2,
-        'space-before-function-paren': [2, 'never'],
+        'space-before-function-paren': [2, 'always'],
         // 'space-in-parens': 0,
         // 'space-infix-ops': 0,
         // 'space-unary-ops': 0,
