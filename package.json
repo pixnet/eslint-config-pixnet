@@ -38,6 +38,10 @@
     "eslint": "^3.19.0"
   },
   "peerDependencies": {
-    "eslint": ">=3.19.0"
+    "babel-eslint": "^7.2.2",
+    "eslint": ">=3.19.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-prefer-object-spread": "^1.1.0",
+    "eslint-plugin-react": "^6.7.1"
   }
 }
