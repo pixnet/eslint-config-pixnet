@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-pixnet",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for the PIXNET DIGITAL MEDIA style",
+  "license": "Apache-2.0",
+  "repository": "pixnet/eslint-config-pixnet",
+  "author": "PIXNET",
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "google",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.19.0"
+  }
+}
