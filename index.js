@@ -24,13 +24,13 @@ const ERROR = 2;
 module.exports = {
     parser: 'babel-eslint',
     parserOptions: {
-      ecmaVersion: 6,
-      sourceType: 'module',
+        ecmaVersion: 6,
+        sourceType: 'module',
     },
 
     plugins: [
-      'babel',
-      'react',
+        'babel',
+        'react',
     ],
 
     rules: {
@@ -154,7 +154,7 @@ module.exports = {
         // 'radix': 0,
         // 'vars-on-top': 0,
         // 'wrap-iife': 0,
-        'yoda': ["error", "always", { "onlyEquality": true }],
+        'yoda': ['error', 'always', {'onlyEquality': true}],
 
         // Strict Mode
         // http://eslint.org/docs/rules/#strict-mode
@@ -212,7 +212,7 @@ module.exports = {
         // 'id-blacklist': 0,
         // 'id-length': 0,
         // 'id-match': 0,
-        'indent': [2, 4, {"SwitchCase": 1}],
+        'indent': [2, 4, {'SwitchCase': 1}],
 
         // 'jsx-quotes': 0,
         'key-spacing': 2,
