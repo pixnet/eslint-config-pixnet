@@ -31,7 +31,7 @@ $ npm install --save-dev eslint eslint-config-pixnet
 - 四個空白字元縮排 (4 Spaces)
 - 不使用 Yoda condition
 - 除了舊專案以外，不使用 alert 函數
-- function 名稱與開始括號之間須要一個空白字元，即 ESLint 規則名 - [space-before-function-paren](http://eslint.org/docs/rules/space-before-function-paren)
+- function 名稱與開始括號之間須要一個空白字元，可參考 ESLint 規則 - [space-before-function-paren](http://eslint.org/docs/rules/space-before-function-paren)
 
 
 ## License
