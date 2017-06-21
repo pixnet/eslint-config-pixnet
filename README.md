@@ -26,7 +26,7 @@ $ npm install --save-dev eslint eslint-config-pixnet
 
 ## 與 Google JavaScript coding style 的差異
 
-*Any of these can be [overridden](#rules) if necessary.*
+*若產品有其時空背景或特殊條件限制，可覆寫規則*
 
 - 兩個空白字元縮排 (2 Spaces)
 - 不使用 Yoda condition
