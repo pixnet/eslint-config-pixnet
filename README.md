@@ -23,6 +23,26 @@ $ npm install --save-dev eslint eslint-config-pixnet
 }
 ```
 
+ES2015 專案的範例設定
+
+```js
+{
+  "extends": "pixnet",
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    // 專案獨有的規則
+  }
+}
+```
+
 
 ## 與 Google JavaScript coding style 的差異
 
