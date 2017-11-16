@@ -154,7 +154,7 @@ module.exports = {
         // 'radix': 0,
         // 'vars-on-top': 0,
         // 'wrap-iife': 0,
-        'yoda': ['error', 'always', {'onlyEquality': true}],
+        // 'yoda': ['error', 'always', {'onlyEquality': true}],
 
         // Strict Mode
         // http://eslint.org/docs/rules/#strict-mode
