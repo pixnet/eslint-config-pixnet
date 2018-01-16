@@ -17,9 +17,6 @@
 'use strict';
 
 // see http://eslint.org/docs/user-guide/configuring.html#configuring-rules
-const OFF = 0;
-const WARNING = 1;
-const ERROR = 2;
 
 module.exports = {
     parser: 'babel-eslint',
@@ -30,7 +27,6 @@ module.exports = {
 
     plugins: [
         'babel',
-        'react',
     ],
 
     rules: {
@@ -330,60 +326,5 @@ module.exports = {
         // 'symbol-description': 0,
         // 'template-curly-spacing': 0,
         'yield-star-spacing': [2, 'after'],
-
-
-        // Rules from fbjs standard: https://github.com/facebook/fbjs
-        // eslint-plugin-react <https://github.com/yannickcr/eslint-plugin-react>
-        // TODO: We're being extremely conservative here as we roll out eslint on
-        // www. As we finish rollout, we can turn on more of these, and replace
-        // some legacy regex rules in the process.
-        'react/display-name': OFF,
-        'react/forbid-prop-types': OFF,
-        'react/jsx-boolean-value': OFF,
-        'react/jsx-closing-bracket-location': OFF,
-        'react/jsx-curly-spacing': OFF,
-        'react/jsx-equals-spacing': WARNING,
-        'react/jsx-filename-extension': OFF,
-        'react/jsx-first-prop-new-line': OFF,
-        'react/jsx-handler-names': OFF,
-        'react/jsx-indent': OFF,
-        'react/jsx-indent-props': OFF,
-        'react/jsx-key': OFF,
-        'react/jsx-max-props-per-line': OFF,
-        'react/jsx-no-bind': OFF,
-        'react/jsx-no-duplicate-props': ERROR,
-        'react/jsx-no-literals': OFF,
-        'react/jsx-no-target-blank': OFF,
-        'react/jsx-no-undef': ERROR,
-        'react/jsx-pascal-case': OFF,
-        'react/jsx-sort-props': OFF,
-        'react/jsx-space-before-closing': OFF,
-        // forked to fb-www/jsx-uses-react
-        'react/jsx-uses-react': OFF,
-        'react/jsx-uses-vars': ERROR,
-        'react/no-comment-textnodes': OFF,
-        'react/no-danger': OFF,
-        'react/no-deprecated': OFF,
-        'react/no-did-mount-set-state': OFF,
-        'react/no-did-update-set-state': OFF,
-        'react/no-direct-mutation-state': OFF,
-        'react/no-is-mounted': WARNING,
-        'react/no-multi-comp': OFF,
-        'react/no-render-return-value': OFF,
-        'react/no-set-state': OFF,
-        'react/no-string-refs': OFF,
-        'react/no-unknown-property': OFF,
-        'react/prefer-es6-class': OFF,
-        'react/prefer-stateless-function': OFF,
-        'react/prop-types': OFF,
-        // forked to fb-www/react-in-jsx-scope
-        'react/react-in-jsx-scope': OFF,
-        'react/require-extension': OFF,
-        'react/require-optimization': OFF,
-        'react/require-render-return': OFF,
-        'react/self-closing-comp': OFF,
-        'react/sort-comp': OFF,
-        'react/sort-prop-types': OFF,
-        'react/wrap-multilines': OFF,
     },
 };
