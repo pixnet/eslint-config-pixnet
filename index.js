@@ -256,7 +256,7 @@ module.exports = {
         // 'no-unneeded-ternary': 0,
         // 'no-whitespace-before-property': 0,
         // 'object-curly-newline': 0,
-        'object-curly-spacing': 2,
+        'object-curly-spacing': [2, 'always'],
         // 'object-property-newline': 0,
         // 'one-var-declaration-per-line': 0,
         'one-var': [2, {
