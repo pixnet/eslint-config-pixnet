@@ -53,7 +53,7 @@ ES2015 專案的範例設定
 - 除了舊專案以外，不使用 alert 函數
 - function 名稱與開始括號之間須要一個空白字元，可參考 ESLint 規則 - [space-before-function-paren](http://eslint.org/docs/rules/space-before-function-paren)
 - 為了提升程式的可讀性，強制大括號內使用空白字元，可參考 ESLint 規則 - [object-curly-spacing](https://eslint.org/docs/rules/object-curly-spacing)
-
+- 變數賦值的等號前後需要一個空白字元， 可參考 ESLint 規則 - [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)
 
 ## License
 
