@@ -35,12 +35,14 @@
     "hint"
   ],
   "devDependencies": {
-    "eslint": "^4.11.0"
+    "eslint": ">=7.5.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^8.0.2",
-    "eslint": ">=4.11.0",
+    "eslint": ">=7.5.0",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-prefer-object-spread": "^1.2.1"
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
   }
 }
