@@ -12,7 +12,8 @@
     "test": "node test/test.js"
   },
   "files": [
-    "index.js"
+    "index.js", 
+    "babel.config.json"
   ],
   "keywords": [
     "google",
