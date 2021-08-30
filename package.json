@@ -1,18 +1,19 @@
 {
   "name": "eslint-config-pixnet",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ESLint shareable config for the PIXNET DIGITAL MEDIA style",
   "license": "Apache-2.0",
   "repository": "pixnet/eslint-config-pixnet",
   "author": "PIXNET",
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "test": "node test/test.js"
   },
   "files": [
-    "index.js"
+    "index.js", 
+    "babel.config.json"
   ],
   "keywords": [
     "google",
@@ -35,12 +36,14 @@
     "hint"
   ],
   "devDependencies": {
-    "eslint": "^4.11.0"
+    "eslint": ">=7.5.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^8.0.2",
-    "eslint": ">=4.11.0",
+    "eslint": ">=7.5.0",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-prefer-object-spread": "^1.2.1"
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
   }
 }

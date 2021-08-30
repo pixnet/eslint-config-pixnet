@@ -19,7 +19,7 @@
 // see http://eslint.org/docs/user-guide/configuring.html#configuring-rules
 
 module.exports = {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
     parserOptions: {
         ecmaVersion: 6,
         sourceType: 'module',
@@ -75,7 +75,7 @@ module.exports = {
             requireParamDescription: false,
             requireReturnDescription: false,
             requireReturn: false,
-            prefer: {returns: 'return'},
+            prefer: { returns: 'return' },
         }],
         // 'valid-typeof': 2 // eslint:recommended
 
@@ -170,7 +170,7 @@ module.exports = {
         // 'no-undef-init': 0,
         // 'no-undef': 2, // eslint:recommended
         // 'no-undefined': 0,
-        'no-unused-vars': [2, {args: 'none'}], // eslint:recommended
+        'no-unused-vars': [2, { args: 'none' }], // eslint:recommended
         // 'no-use-before-define': 0,
 
         // Node.js and CommonJS
@@ -194,7 +194,7 @@ module.exports = {
         'array-bracket-spacing': [2, 'never'],
         // 'block-spacing': 0,
         'brace-style': 2,
-        'camelcase': [2, {properties: 'never'}],
+        'camelcase': [2, { properties: 'never' }],
         'comma-dangle': [2, 'always-multiline'],
         'comma-spacing': 2,
         'comma-style': 2,
@@ -208,7 +208,7 @@ module.exports = {
         // 'id-blacklist': 0,
         // 'id-length': 0,
         // 'id-match': 0,
-        'indent': [2, 4, {'SwitchCase': 1}],
+        'indent': [2, 4, { 'SwitchCase': 1 }],
 
         // 'jsx-quotes': 0,
         'key-spacing': 2,
@@ -243,7 +243,7 @@ module.exports = {
         // 'no-lonely-if': 0,
         // 'no-mixed-operators': 0,
         'no-mixed-spaces-and-tabs': 2, // eslint:recommended
-        'no-multiple-empty-lines': [2, {max: 2}],
+        'no-multiple-empty-lines': [2, { max: 2 }],
         // 'no-negated-condition': 0,
         // 'no-nested-ternary': 0,
         'no-new-object': 2,
@@ -268,7 +268,7 @@ module.exports = {
         // 'operator-linebreak': 0,
         'padded-blocks': [2, 'never'],
         'quote-props': [2, 'consistent'],
-        'quotes': [2, 'single', {allowTemplateLiterals: true}],
+        'quotes': [2, 'single', { allowTemplateLiterals: true }],
         'require-jsdoc': [2, {
             require: {
                 FunctionDeclaration: true,
